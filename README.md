@@ -10,4 +10,4 @@ The dataset which we use here is the [RSICD](https://github.com/201528014227051/
 
 ## Preprocessing
 
-The prepping of data is minimal, due to the fact that all the images are in a standard size of (224,224,3). But due to the large amount of data, we build a TensorFlow input pipeline to prevent any sort of disk overloading. As for the text, standard stemming is done, any sort of punctuations are removed. We also transform it into a standard form of <"start"> *the sentence* <"end">. 
+The prepping of data is minimal, due to the fact that all the images are in a standard size of (224,224,3). But due to the large amount of data, we build a TensorFlow input pipeline to prevent any sort of disk overloading. As for the text, standard stemming is done, any sort of punctuations are removed. We also transform it into a standard form of "<'start'> *the sentence* <'end'>." 
